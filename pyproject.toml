@@ -5,9 +5,14 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "jupyter>=1.1.1",
     "numpy",
     "onnx",
-    "onnxruntime",     
+    "onnxruntime",
+    "onnxruntime-gpu>=1.32.0",
+    "ruff>=0.17.6",
     "torch",
     "transformers",
 ]
