@@ -1,0 +1,5 @@
+*
+!model_optimized.onnx
+!docker/server.py
+!docker/app_*.py
+!docker/requirements-*.txt
